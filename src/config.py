@@ -10,7 +10,7 @@ if not OPENWEATHERMAP_API_KEY:
     raise ValueError("OpenWeatherMap API key not found in .env file")
 
 # General Configuration
-UPDATE_INTERVAL = 300  # 5 minutes in seconds
+UPDATE_INTERVAL = 600  # 10 minutes in seconds
 CITIES = ['Delhi', 'Mumbai', 'Chennai', 'Bengaluru', 'Kolkata', 'Hyderabad']
 TEMPERATURE_UNIT = 'celsius'
 DATABASE_URL = 'sqlite:///weather_data.db'
